@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <script>
+            window.addEventListener('message', (event) => {
+                let data = event.data;
+                OpenURL(data.link)
+            })
+            function OpenURL(url) {
+                window.invokeNative('openUrl', url)
+            }
+        </script>
+    </body>
+</html>
