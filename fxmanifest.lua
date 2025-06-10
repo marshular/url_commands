@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-shared_script 'shared_config.lua'
+shared_script 'config_shared.lua'
 
 client_script 'source/client/main.lua'
 
